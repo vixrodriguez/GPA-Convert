@@ -6,8 +6,9 @@ Show about the [grade in ESPOL](http://www.espol.edu.ec/espol/main.jsp?urlpage=c
 ## Format
 
 - **-h**: Help
-- **-s**: score file or source file **(Required)**
-- **-t**: Type to convert (ESPOL transformation or U.S)
+- **-f**: Score file or source file **(Required)**
+- **-s**: Grade scale **(Required)**
+- **-t**: Type to convert (ESPOL transformation or U.S) **(Required)**
 - **-o**: Output filename
 
 When the parameter **-o** is not written, it is taken as the output file name, the same name of the source file preceded by **gpa.scv**.
