@@ -1,5 +1,7 @@
 # GPA-Convert
-This script calculates the score 0-10 or 0-100 scale and generates CSV file with the scores based in the transformation of scores [ESPOL](http://www.espol.edu.ec).  Also, it allow calculate the score 0-100 to GPA EEUU
+This script calculates the score 0-10 or 0-100 scale and generates CSV file with the scores based in the transformation of scores [ESPOL](http://www.espol.edu.ec).  Also, it allow calculate the score 0-10 or 0-100 to GPA EEUU.
+
+Show about the [grade in ESPOL](http://www.espol.edu.ec/espol/main.jsp?urlpage=calificestudiantes.jsp).
 
 ## Format
 
@@ -34,12 +36,12 @@ score100_to_gpa -h
 score10or100_to_gpa -f scores.csv -s 10
 ```
 
-### Example 2
+### Example 3
 ```
 score100_to_gpa -f scores.csv -s 100 -o newScores.csv
 ```
 
-### Example 3
+### Example 4
 ```
 score100_to_gpa -f scores.csv -s 100 -t espol -o newScores.csv
 ```
